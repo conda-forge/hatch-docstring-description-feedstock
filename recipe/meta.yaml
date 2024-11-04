@@ -1,13 +1,13 @@
 {% set name = "hatch-docstring-description" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_docstring_description-{{ version }}.tar.gz
-  sha256: a21da39911023a3af0a5ec7b2668393111776b420758e89eedc34ecd07ba4afd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hatch_docstring_description-{{ version }}.tar.gz
+  sha256: e047997faed9c86725ec88d7574ee208d90998e8d322fb96c485c3d502b26291
 
 build:
   noarch: python
