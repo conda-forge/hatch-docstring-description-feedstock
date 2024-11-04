@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_docstring_description-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hatch_docstring_description-{{ version }}.tar.gz
   sha256: e047997faed9c86725ec88d7574ee208d90998e8d322fb96c485c3d502b26291
 
 build:
